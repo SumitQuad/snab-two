@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 40px;
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttons button {
+    margin-right: 30px;
+}
+
+.footer-links ul  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    padding: 10px 0px;
+}
+
+.footer-links ul li::before {
+    content: "*";
+    margin-right: 10px;
+}

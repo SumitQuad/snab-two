@@ -1,0 +1,22 @@
+.offers{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-style-offers{
+  border-radius: 115px !important;
+  padding: 50px;
+  border : 1px solid grey;
+  background-color: #F5F1ED !important;
+}
+
+.card-style-offers .card-style-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-style-offers button {
+    margin-top: 30px;
+    display: inline-block !important;
+}

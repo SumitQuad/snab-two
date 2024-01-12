@@ -1,0 +1,23 @@
+nav {
+    display :flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 10px 5px;
+}
+
+.sign-in-link {
+    margin-right: 30px; 
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .nav-right a {
+        display: none;
+}
+}

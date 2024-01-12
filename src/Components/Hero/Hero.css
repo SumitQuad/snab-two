@@ -1,0 +1,25 @@
+.hero {
+    margin-top: 20px;
+}
+
+.hero-row {
+    margin-top: 40px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-center img {
+   width : 100%;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

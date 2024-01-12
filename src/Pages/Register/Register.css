@@ -1,0 +1,95 @@
+.register .login-image {
+    display: flex;
+
+  }
+  
+  .register .login-image img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  
+  .register .login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 20px 10px;
+  }
+
+  .login form {
+    padding : 50px 10px;
+  }
+  
+  .login form {
+    width: 100%;
+  }
+
+  .register .tabs p:first-child {
+    text-decoration: underline;
+  }
+
+  .register input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    margin-top:40px;
+    background-color: #F5F1ED;
+    width : 80%;
+}
+
+.register input::placeholder {
+    color:#E0B51D;
+}
+
+.register .card-style {
+    margin-top: 40px;
+    background-color: #F5F1ED;
+    width : 90%;
+    height : 60%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.register .join-panda {
+    margin-top: 20px auto;
+    padding : 20px 50px;
+    display: block;
+    margin-top: 20px;
+    width :50%;
+    border-radius: 50px;
+    background-color: #F5F1ED;
+    border : 1px solid black;
+}
+
+.register .create {
+    font-size: 20px;
+}
+
+.register .minutes{
+    color: #A95454;
+}
+
+.register .disclaimer {
+    margin-top: 20px;
+    color: #ACB5BD;
+}
+
+.register .tabs{
+  display: flex;
+}
+
+.register .tabs p {
+  padding-left: 10px;
+}
+
+.register .login-checkbox {
+ display: flex;
+}
+
+.register .login-checkbox p{
+  text-align: right !important;
+}
+  
+.register input[type="text"] {
+  display: inline-block;
+}

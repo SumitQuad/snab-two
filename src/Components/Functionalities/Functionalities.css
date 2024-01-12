@@ -1,0 +1,26 @@
+.functionalities{
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.explore {
+    margin-top: 50px;
+    display: inline-block !important;
+}
+
+.card-style-functionalities{
+    border-top-right-radius: 115px !important;
+    border-top-left-radius: 115px !important;
+    border-top-color:#A95454 !important;
+    border: 1px solid grey !important;
+    background-color: #F5F1ED !important;
+}
+
+.card-style-functionalities-bottom{
+    margin-top: 30px;
+    border-bottom-right-radius: 115px !important;
+    border-bottom-left-radius: 115px !important;
+    border-top-color:#A95454 !important;
+    border: 1px solid grey !important;
+    background-color: #F5F1ED !important;
+}

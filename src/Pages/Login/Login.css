@@ -1,0 +1,95 @@
+.login .login-image {
+    display: flex;
+
+  }
+  
+  .login .login-image img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  
+  .login .login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 20px 10px;
+  }
+
+  .login form {
+    padding : 50px 10px;
+  }
+  
+  .login form {
+    width: 100%;
+  }
+
+  .login .tabs p:last-child {
+    text-decoration: underline;
+  }
+
+  .login input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    margin-top:40px;
+    background-color: #F5F1ED;
+    width : 80%;
+}
+
+.login input::placeholder {
+    color:#E0B51D;
+}
+
+.login .card-style {
+    margin-top: 40px;
+    background-color: #F5F1ED;
+    width : 90%;
+    height : 60%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.login .join-panda {
+    margin-top: 20px auto;
+    padding : 20px 50px;
+    display: block;
+    margin-top: 20px;
+    width :50%;
+    border-radius: 50px;
+    background-color: #F5F1ED;
+    border : 1px solid black;
+}
+
+.login .create {
+    font-size: 20px;
+}
+
+.login .minutes{
+    color: #A95454;
+}
+
+.login .disclaimer {
+    margin-top: 20px;
+    color: #ACB5BD;
+}
+
+.login .tabs{
+  display: flex;
+}
+
+.login .tabs p {
+  padding-left: 10px;
+}
+
+.login .login-checkbox {
+ display: flex;
+}
+
+.login .login-checkbox p{
+  text-align: right !important;
+}
+  
+.login input[type="text"] {
+  display: inline-block;
+}

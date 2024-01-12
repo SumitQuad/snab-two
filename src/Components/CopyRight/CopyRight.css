@@ -1,0 +1,8 @@
+.copyright{
+    margin-top: 40px;
+}
+
+.copyright-content{
+    display: flex;
+    justify-content: space-between;
+}
