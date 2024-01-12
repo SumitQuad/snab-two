@@ -1,5 +1,7 @@
+/* Importing Google Fonts for 'Poppins' and 'Roboto' */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap');
 
+/* Global styles */
 * {
   margin:0px;
   padding:0px;
@@ -7,18 +9,48 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+/* Styles for the main app container */
 .App {
   text-align: center;
   background-color: #F5F1ED;
 }
 
+/* Common styles for buttons */
 button {
   padding: 10px 20px;
   border-radius: 20px !important;
   display: inline-block !important;
 }
 
+/* Responsive styles for images */
 img {
   width: 100%;
+}
+
+/* Styles for custom line */
+.custom-line {
+  position: relative;
+  width: 10%;
+  height: 4px;
+  margin-left : 20px;
+  background-color: grey;
+  transform: rotate(-0deg);
+  transform-origin: 0% 0%;
+  margin-top: 50px;
+}
+
+/* Styles for the small line within the custom line */
+.small-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 4px;
+  background-color: black;
+}
+
+/* Styles for the heading line */
+.heading-line {
+  display: flex;
+  justify-content: center;
 }

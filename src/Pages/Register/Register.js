@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Register.css";
 import { Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 function Register() {
     const navigate = useNavigate();
@@ -33,14 +35,21 @@ function Register() {
                                 <h1>*</h1>
                                 <h3>Create your free account <br /><span className='create'>Takes less than <span className='minutes'>5 minutes...</span></span></h3>
                                 <form>
-                                    <input type="text" placeholder='klincik7@gmail.com' />
-                                    <input type="text" placeholder='******************' />
-                                    <input type="text" placeholder='******************' />
+                                    <input type="text" placeholder='klincik7@gmail.com' /><span className="toggle-button"></span>
+                                    <div className="password-container">
+                                        <input type="password" className="password-input" id="passwordInput" placeholder='******************' />
+                                        <span className="toggle-button" onclick="togglePasswordVisibility()">Show</span>
+                                    </div>
+                                    <div className="password-container">
+                                        <input type="password" className="password-input" id="passwordInput" placeholder='******************' />
+                                        <span className="toggle-button" onclick="togglePasswordVisibility()">Show</span>
+                                    </div>
                                 </form>
                             </Card.Body>
                         </Card>
 
                         <button className='join-panda' onClick={handleJoinPandaClick}>Join Panda</button>
+
 
                         <div className='disclaimer'>
                             <p>By clicking on "Create an account", you agree to our <br />terms of use and privacy policy.</p>

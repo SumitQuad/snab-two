@@ -11,6 +11,18 @@ function Login() {
         navigate('/Home');
     };
 
+    const goToRegister = () => {
+        navigate('/');
+    };
+
+    const goToSignIn = () => {
+        navigate('/login');
+    };
+
+    const handleClick = () => {
+        navigate('/forgot');
+    };
+
     return (
         <section className='login'>
             <div className="container-fluid">
@@ -20,9 +32,9 @@ function Login() {
                     </div>
                     <div className="col-lg-4 login-form d-flex flex-column">
                         <div className='tabs'>
-                            <p>Join Panda</p>
+                            <p onClick={goToRegister} className='underline'>Join Panda</p>
                             <p>Or</p>
-                            <p className='underline'>Sign In</p>
+                            <p onClick={goToSignIn} className='underline'>Sign In</p>
                         </div>
                         <Card className='card-style'>
                             <Card.Body>
@@ -30,9 +42,12 @@ function Login() {
                                 <h3>Create your free account <br /><span className='create'>Takes less than <span className='minutes'>5 minutes...</span></span></h3>
                                 <form>
                                     <input type="text" placeholder='klincik7@gmail.com' />
-                                    <input type="text" placeholder='******************' />
+                                    <div class="password-container">
+                                        <input type="password" class="password-input" id="passwordInput" placeholder='******************' />
+                                        <span class="toggle-button" onclick="togglePasswordVisibility()">Show</span>
+                                    </div>
                                 </form>
-                                <p>Forgot password?</p>
+                                <p onClick={handleClick}>Forgot password?</p>
                             </Card.Body>
                         </Card>
 

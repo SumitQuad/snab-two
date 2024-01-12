@@ -14,7 +14,7 @@ function Offers() {
                     </div>
                     <div className='col-lg-7 col-md-12 col-sm-12'>
                         <div className='row gutter-y-4'>
-                            <div className='col-lg-6'>
+                            <div className='col-lg-6 col-md-6 col-sm-6'>
                                 <Card className='card-style-offers'>
                                     <h4>Lead Software Engineer</h4>
                                     <p>Madagascar </p>
@@ -29,7 +29,7 @@ function Offers() {
                                    <button>Voir</button>
                                 </Card>
                             </div>
-                            <div className='col-lg-6'>
+                            <div className='col-lg-6 col-md-6 col-sm-6'>
                             <Card className='card-style-offers'>
                                     <h4>Risk Analyst</h4>
                                     <p>Madagascar </p>
@@ -44,7 +44,7 @@ function Offers() {
                                    <button>Voir</button>
                                 </Card>
                             </div>
-                            <div className='col-lg-6 mt-4'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 mt-4'>
                             <Card className='card-style-offers'>
                                     <h4>Financial Analyst</h4>
                                     <p>Madagascar </p>
@@ -59,7 +59,7 @@ function Offers() {
                                    <button>Voir</button>
                                 </Card>
                             </div>
-                            <div className='col-lg-6 mt-4'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 mt-4'>
                             <Card className='card-style-offers'>
                                     <h4>Data Engineer</h4>
                                     <p>Madagascar </p>

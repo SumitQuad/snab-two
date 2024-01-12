@@ -1,3 +1,4 @@
+/* Styles for the main navigation */
 nav {
     display :flex;
     justify-content: space-around;
@@ -5,19 +6,35 @@ nav {
     padding : 10px 5px;
 }
 
+/* Styles for the sign-in link */
 .sign-in-link {
     margin-right: 30px; 
 }
 
+/* Styles for links in the right navigation */
 .nav-right a {
     text-decoration: none;
     color: black;
     text-decoration: underline;
 }
 
+/* Styles for the hamburger icon and hiding it by default */
+.nav-right .hamburger{
+ display: none;
+}
+
+/* Styles for the hamburger icon cursor */
+.hamburger {
+    cursor: pointer;
+  }
+
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .nav-right a {
         display: none;
 }
+.nav-right .hamburger{
+    display: block;
+   }
 }

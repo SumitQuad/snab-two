@@ -1,13 +1,27 @@
+/* Adds top margin to create space above the founders section */
 .founders{
-  margin-top: 40px;
   margin-top: 40px;
   padding : 0px 50px;
 }
 
+/* Adds top margin to create space above the h4 elements within the founders section */
 .founders h4 {
   margin-top: 70px;
 }
 
-.card-style-two{
-  padding: 0px !important;
+/* Styles for the card-style-three class */
+.card-style-three{
+  display: flex !important;
+  border-top-left-radius: 165px !important;
+  border-top-right-radius: 165px !important;
+  max-width: 80% !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-style-three{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 }

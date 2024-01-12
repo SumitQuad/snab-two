@@ -1,4 +1,10 @@
+/* Styles for the 'panda' section */
 .panda{
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  
 }

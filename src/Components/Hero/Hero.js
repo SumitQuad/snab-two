@@ -15,8 +15,8 @@ function Hero() {
                <img src="./Images/Group 262.png" alt="hero"/> 
             </div>
             <div className='col-lg-4 hero-right'>
-            <h1>Organisations en Afrique</h1>
-             <p>Vous êtes une entreprise privée ou publique basée en Afrique et vous avez du mal à recruter des profils expérimentés? Vous êtes une start-up africaine et vous souhaitez faire appel aux services d'un prestataire externe? Vous recherchez une expertise spécifique pour réaliser un futur projet? Grâce à son réseau, PANDA vous aide à trouver les experts dont vous avez besoin!</p> 
+            <h1>Experts </h1>
+             <p>Vous êtes un professionnel expérimenté et vous planifiez de partir travailler en Afrique? Vous vous rendez souvent sur le continent africain pour des raisons professionnelles et vous souhaitez étendre votre réseau? Vous souhaitez partager votre expertise avec des organisations africaines sans vous déplacer?</p> 
             </div>
          </div>
         </section>

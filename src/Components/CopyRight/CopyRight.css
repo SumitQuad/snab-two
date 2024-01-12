@@ -1,8 +1,20 @@
+/* Adds top margin to the copyright container */
 .copyright{
     margin-top: 40px;
 }
 
+/* Aligns the content within the copyright container in a flex layout with space between items */
 .copyright-content{
     display: flex;
     justify-content: space-between;
+}
+
+/* Adds right padding to the copyright icons container */
+.copyright-icons{
+    padding-right: 50px;
+}
+
+/* Applies a left margin to all SVG elements */
+svg {
+    margin-left: 30px;
 }

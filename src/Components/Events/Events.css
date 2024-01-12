@@ -1,3 +1,4 @@
+/* Adds top and bottom margin to create space around the events container */
 .events{
     margin-top: 40px;
     margin-bottom: 40px;

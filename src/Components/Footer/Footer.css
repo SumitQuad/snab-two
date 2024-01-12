@@ -1,27 +1,27 @@
+/* Adds top margin to create space above the footer section */
 .footer {
     margin-top: 40px;
 }
 
+/* Adds top and bottom margin to create space around buttons in the footer */
 .buttons {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+/* Adds right margin to buttons for spacing */
 .buttons button {
     margin-right: 30px;
 }
 
+/* Styles for the unordered list in the footer links */
 .footer-links ul  {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+/* Styles for list items in the footer links */
 .footer-links ul li {
     padding: 10px 0px;
-}
-
-.footer-links ul li::before {
-    content: "*";
-    margin-right: 10px;
 }

@@ -1,13 +1,16 @@
+/* Adds top margin and horizontal padding to the functionalities section */
 .functionalities{
     margin-top: 30px;
     padding: 0px 20px;
 }
 
+/* Adds top margin, changes display to inline-block, and uses !important to override default styles */
 .explore {
     margin-top: 50px;
     display: inline-block !important;
 }
 
+/* Styles for the card-style-functionalities class */
 .card-style-functionalities{
     border-top-right-radius: 115px !important;
     border-top-left-radius: 115px !important;
@@ -16,6 +19,7 @@
     background-color: #F5F1ED !important;
 }
 
+/* Styles for the card-style-functionalities-bottom class */
 .card-style-functionalities-bottom{
     margin-top: 30px;
     border-bottom-right-radius: 115px !important;

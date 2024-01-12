@@ -11,6 +11,14 @@ function ResetPassword() {
         navigate('/Home');
     };
 
+    const goToRegister = () => {
+        navigate('/');
+    };
+
+    const goToSignIn = () => {
+        navigate('/login');
+    };
+
     return (
         <section className='reset-password'>
             <div className="container-fluid">
@@ -20,9 +28,9 @@ function ResetPassword() {
                     </div>
                     <div className="col-lg-4 login-form d-flex flex-column">
                         <div className='tabs'>
-                            <p>Join Panda</p>
+                            <p onClick={goToRegister}>Join Panda</p>
                             <p>Or</p>
-                            <p className='underline'>Sign In</p>
+                            <p onClick={goToSignIn} className='underline'>Sign In</p>
                         </div>
                         <Card className='card-style'>
                             <Card.Body>

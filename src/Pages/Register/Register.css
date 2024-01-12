@@ -1,14 +1,19 @@
+/* Styles for the 'register' section */
+
+/* Display register image as a flex container */
 .register .login-image {
     display: flex;
 
   }
   
+/* Style for the register image inside the 'register' section */
   .register .login-image img {
     width: 100%;
     max-height: 100vh;
     object-fit: cover;
   }
   
+  /* Styles for the register form within the 'register' section */
   .register .login-form {
     display: flex;
     justify-content: center;
@@ -16,18 +21,18 @@
     padding : 20px 10px;
   }
 
+  /* Styles for the form inside the 'register' section */
   .login form {
     padding : 50px 10px;
-  }
-  
-  .login form {
     width: 100%;
   }
 
+  /* Styles for the 'tabs' class paragraphs within the 'register' section */
   .register .tabs p:first-child {
     text-decoration: underline;
   }
 
+  /* Styles for the input fields within the 'register' section */
   .register input {
     border: none;
     border-bottom: 1px solid #000;
@@ -37,10 +42,12 @@
     width : 80%;
 }
 
+/* Placeholder styles for input fields in the 'register' section */
 .register input::placeholder {
     color:#E0B51D;
 }
 
+/* Styles for the card within the 'register' section */
 .register .card-style {
     margin-top: 40px;
     background-color: #F5F1ED;
@@ -50,6 +57,7 @@
     border-top-left-radius: 30%;
 }
 
+/* Styles for the 'join-panda' class within the 'register' section */
 .register .join-panda {
     margin-top: 20px auto;
     padding : 20px 50px;
@@ -61,35 +69,50 @@
     border : 1px solid black;
 }
 
+/* Styles for the 'create' class within the 'register' section */
 .register .create {
     font-size: 20px;
 }
 
+/* Styles for the 'minutes' class within the 'register' section */
 .register .minutes{
     color: #A95454;
 }
 
+/* Styles for the 'disclaimer' class within the 'register' section */
 .register .disclaimer {
     margin-top: 20px;
     color: #ACB5BD;
 }
 
+/* Styles for the 'tabs' class within the 'register' section */
 .register .tabs{
   display: flex;
 }
 
+/* Styles for the 'tabs' class paragraphs within the 'register' section */
 .register .tabs p {
   padding-left: 10px;
 }
 
+/* Styles for the 'login-checkbox' class within the 'register' section */
 .register .login-checkbox {
  display: flex;
 }
 
+/* Styles for the paragraphs within the 'login-checkbox' class in the 'register' section */
 .register .login-checkbox p{
   text-align: right !important;
 }
-  
+ 
+/* Display inline block for input type 'text' within the 'register' section */
 .register input[type="text"] {
   display: inline-block;
 }
+
+/* Container for the password input */
+.password-container {
+  position: relative;
+}
+
+

@@ -1,11 +1,14 @@
+/* Adds top margin to the hero section */
 .hero {
     margin-top: 20px;
 }
 
+/* Adds top margin to the hero-row class */
 .hero-row {
     margin-top: 40px;
 }
 
+/* Styles for the hero-right class, which is a flex container with centered content */
 .hero-right {
     display: flex;
     flex-direction: column;
@@ -13,13 +16,33 @@
     align-items: center;
 }
 
+/* Styles for the hero-center img, ensuring the image takes up 100% width */
 .hero-center img {
    width : 100%;
 }
 
+/* Styles for the hero-left class, which is a flex container with centered content */
 .hero-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        margin-top: 40px;
+    }
+    .hero-row {
+        margin-top: 40px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+    
+    .hero-center img {
+        width : 50%;
+     }
 }

@@ -1,13 +1,16 @@
+/* Adds top and bottom margin to the mission section */
 .mission{
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
+/* Styles for the mission-row class, a flex container with centered content */
 .mission-row{
     display: flex;
     justify-content: center;
 }
 
+/* Styles for the card-style-two class, adding rounded borders, background color, padding, and border */
 .card-style-two{
     border-top-right-radius: 115px !important;
     border-top-left-radius: 115px !important;

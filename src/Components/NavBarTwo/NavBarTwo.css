@@ -1,9 +1,11 @@
+/* Styles for the second navbar */
 .navbar-two {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Styles for list items inside the second navbar */
 .navbar-two ul li {
     display: inline-block;
     list-style: none !important;

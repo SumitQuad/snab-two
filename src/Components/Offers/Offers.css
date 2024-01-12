@@ -1,8 +1,10 @@
+/* Styles for the 'offers' section */
 .offers{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+/* Styles for the card in the 'offers' section */
 .card-style-offers{
   border-radius: 115px !important;
   padding: 50px;
@@ -10,13 +12,22 @@
   background-color: #F5F1ED !important;
 }
 
+/* Styles for the row inside the 'offers' card */
 .card-style-offers .card-style-row{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* Styles for buttons inside the 'offers' card */
 .card-style-offers button {
     margin-top: 30px;
     display: inline-block !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-style-offers{
+    margin-top: 20px;
+  }
 }
